@@ -33,3 +33,13 @@ for (let i = 0; i < svg.length; i++) {
 let span = document.getElementsByClassName("bold");
 
 span[0].style.color = "#7C9EA6";
+
+//sixth section
+document.querySelector(".content_list li:first-of-type").textContent =
+    "this is new list item text.";
+
+document.querySelectorAll(".content_list li")[2].innerHTML +=
+    "<strong> Cleveland Williams</strong>";
+
+//seventh section
+document.querySelector("#remove a").removeAttribute("hidden");
